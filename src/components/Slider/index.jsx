@@ -8,11 +8,10 @@ import ArrowDropDownCircleIcon from '@mui/icons-material/ArrowDropDownCircle';
 export const Slider = () => {
     const [count, setCount] = useState(0)
 
-
     useEffect(() => {
         const interval = setInterval(() => {
             setCount(prevCount => (prevCount + 1) % imageArray.length);
-        }, 15000);
+        }, 8000);
 
         return () => clearInterval(interval);
     }, []);

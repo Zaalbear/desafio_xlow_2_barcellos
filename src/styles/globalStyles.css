@@ -1,3 +1,13 @@
+:root {
+    --button-default: #555555;
+    --button-hover: #333333;
+
+    --dot-inactive:  #cccccc;
+    --dot-inactive-hover:  #aaaaaa;
+    --dot-active: #ff6347;
+}
+
+
 html,
 body,
 #root {

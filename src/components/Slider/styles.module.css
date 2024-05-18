@@ -34,12 +34,16 @@
 }
 
 .active {
-    color: green;
+    color: var(--dot-active);
 }
 
 .inactive {
-    color: gray;
+    color: var(--dot-inactive);
     cursor: pointer;
+}
+
+.inactive:hover {
+    color: var(--dot-inactive-hover);
 }
 
 .button {
@@ -68,13 +72,13 @@
 }
 
 .button_icon {
-    transform: scale(1.5);
+    transform: scale(1.25);
 
     cursor: pointer;
 
-    color: gray;
+    color: var(--button-default);
 }
 
 .button_icon:hover {
-    color: green;
+    color: var(--button-hover);
 }
