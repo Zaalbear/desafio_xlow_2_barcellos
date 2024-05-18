@@ -56,7 +56,7 @@ This is a portfolio was developed to serve as a visit card to companies, recrute
 
 ## Deploy
 
-This project is available at: [https://desafio-xlow-1-barcellos.vercel.app/](https://desafio-xlow-1-barcellos.vercel.app/).
+This project is available at: [https://desafio-xlow-2-barcellos.vercel.app/](https://desafio-xlow-2-barcellos.vercel.app/).
 
 ## Starting the project
 
